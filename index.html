@@ -1,105 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
+</html>    
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Резюме,Рустам Мустафин, frontend">
     <meta name="description" content="Рустам Мустафин - начинающий программист">
-    <title>Резюме</title>
-    
+    <title>Резюме</title>     
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <img src="https://hips.hearstapps.com/hmg-prod/images/miley-cyrus-attends-the-versace-fw23-show-at-pacific-design-news-photo-1707096564.jpg" 
-    width="250" alt="майли сайрус">
-    <h1><strong>Мустафин Рустам</strong></h1>
+    <nav class="navbar">
+    <!-- ul>(li>a{item $})*5 -->
+    <ul>
+        <li><a href="#">Майли Сайрус</a></li>
+        <li><a href="#">Сайрус Майли</a></li>
+        <li><a href="#">Срайли Майрус</a></li>
+        <li><a href="#">Мсайруй Срайли</a></li>
+        <li><a href="#">Милуе Цурис</a></li>
+    </ul>
+    </nav>
+    
+<div class="container">
+    <div class="info">
+        <img src="https://i.pinimg.com/736x/a0/56/b9/a056b90682aa432ede2ecf3b7eb0e80a.jpg" class="avatar" alt="майли сайрус" />
+        <div class="info-text">
+            <h1>Мустафин Рустам</h1>
+           
+            <p>Я игрок в онлайн игры с огромным опытом в 20 лет, люблю добиваться высоких результатов и самосовершенствоваться.</p>
+            <p>Начинающий разработчик в сфере Frontend.</p>
 
-    <p> <strong>Я игрок в онлайн игры с огромным опытом в 20 лет</strong>, люблю добиваться высоких результатов и самосовершенствоваться.</p>
-    <p>Начинающий <strong>разработчик в сфере Frontend.</strong> </p>
+            <h4>Ссылки на социальные сети:</h4>
+            <a href="https://vk.com/mealoka" target="_blank">Вконтакте</a> │
+            <a href="https://www.youtube.com/@rast1kmome786" target="_blank">Youtube</a> │
+            <a href="https://www.warcraftlogs.com/" target="_blank">World Of Warcraft</a>
+        </div>
+    </div>
+    
+<div class="vsemoe">
+            <div class="card">
+            <div class="hobbies"><h2>МОИ ХОББИ</h2>
+            <ol>
+                <li>Музыка</li>
+                <li>Ведение блога по питанию/ консультации</li>
+                <li>Кодирование</li>
+                <li>Компьютерные игры:
+                    <ul>
+                        <li>Genshin Impact</li>
+                        <li>Wuthering Waves</li>
+                        <li>Zenlezz Zone Zero</li>
+                        <li>Overwatch 2</li>
+                        <li>World Of Warcraft</li>
+                    </ul>
+                </li>
+                             
+                </ol>
+                </div>
+            </div>
 
-<h2>Мои хобби</h2>
-<ul>
-    <li>Компьютерные игры:
-        <ol type="circle">
-            <li>Genshin Impact</li>
-            <li>Wuthering Waves</li>
-            <li>Zenlezz Zone Zero</li>
-            <li>Overwatch 2</li>
-            <li>World Of Warcraft</li>
-        </ol>
-    </li>
-    <li>Музыка</li>
-    <li>Ведение блога по питанию/ консультации</li>
-    <li>Кодирование</li>
+            <div class="card cvet">
+            <h2>ОПЫТ ИГР</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Гильдия</th>
+                        <th>Звание</th>
+                        <th>Год</th>
+                    </tr>
+                                
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Темный уголок</td>
+                        <td>Нечто</td>
+                        <td>2017-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Депо</td>
+                        <td>Нечто 2</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>Депортация</td>
+                        <td>Нечто 3</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Депо Гейминг</td>
+                        <td>Великолепная королева</td>
+                        <td>2023-2024</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+   
+    <form action="/" class="form">
 
-</ul>
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" id="name" placeholder="Ваше Имя"> 
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Введите свою почту"> 
+            </div>
+        </div>
 
-<h2>Опыт игр</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Имя гильдии</th>
-            <th>Звание</th>
-            <th>Год</th>
-        </tr>
-        
-    </thead>
-    <tbody>
-        <tr>
-            <td>Темный уголок</td>
-            <td>Нечто</td>
-            <td>2017-2019</td>
-        </tr>
-         <tr>
-            <td>Депо</td>
-            <td>Нечто 2</td>
-            <td>2019-2020</td>
-        </tr>
-         <tr>
-            <td>Депортация</td>
-            <td>Нечто 3</td>
-            <td>2021-2023</td>
-        </tr>
-         <tr>
-            <td>Депо Гейминг</td>
-            <td>Великолепная королева</td>
-            <td>2023-2024</td>
-        </tr>
-        
-    </tbody>
+        <div class="form-group">
+            <label for="message">Сообщение</label>    
+            <textarea name="message" id="message" placeholder="Напиши плз" cols="40" rows="10">  
+            </textarea> 
+        </div>
 
-</table>
-
-    <h4><strong>Ссылки на социальные сети:</strong></h4>
-
-    <a href="https://vk.com/mealoka" target="_blank"> Вконтакте</a> │
-   <a href="https://www.youtube.com/@rast1kmome786" target="_blank"> Youtube</a>│
-   <a href="https://www.warcraftlogs.com/" target="_blank">World Of Warcraft</a>
-
-<h2>Связаться со мной</h2>
-
-<div>
-    <label for="name">Имя</label>
-    <input type="text" id="name" placeholder="Ваше Имя">
-
-</div>
-
-<div>
-    <label for="email">Email</label>
-    <input type="email" id="email" placeholder="Введите свою почту">
-</div>
-
-<div>
-    <label for="message">Сообщение</label>
-    <br>    
-    <textarea name="message" id="message" placeholder="Напиши плз" cols="40"
-    rows="10"></textarea>
-</div>
-
-<div>
-    <button type="submit"> Отправить</button>
-</div>
-
-
+        <div>
+            <button type="submit" class="btn"> Отправить</button> 
+        </div>
+</form>
+ </div>              
+                
 </body>
-</html>
+</html>    
